@@ -25,7 +25,7 @@ h1{
 }
 
 .link{
-    text-decoration: none;
+    
     color: var(--link-color);
 }
 
@@ -33,9 +33,14 @@ h1{
     color: #f0ab8d;
 }
 
+.link:visited{
+    color: #57385c;
+}
+
 .img-croissant{
     display: block;
     max-width: 40%;
+    margin-bottom: 20px;
 }
 
 .text-descr{
